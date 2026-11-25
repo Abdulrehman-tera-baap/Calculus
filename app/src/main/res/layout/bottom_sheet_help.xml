@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/card_white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="22dp">
+
+        <!-- Drag Handle -->
+        <View
+            android:layout_width="42dp"
+            android:layout_height="4dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="16dp"
+            android:background="#CBD5E1" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="📖 App User Guide — By Maan"
+            android:textColor="@color/text_primary"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Har feature aur button ko istemal karne ka mukammal tareeqa:"
+            android:textColor="@color/text_secondary"
+            android:textSize="13sp" />
+
+        <!-- Section 1 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="1. Mode Selector (Polynomial vs Standard f(x))"
+            android:textColor="@color/brand_royal"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:lineSpacingExtra="3dp"
+            android:text="• Polynomial: Algebraic equations (jaise 2 + 3x + x²) ko integrate karne ke liye.
+• Standard f(x): Trigonometry aur special functions (sin(x), cos(x), sec²(x), eˣ, 1/x, 1/√x) ke liye."
+            android:textColor="@color/text_primary"
+            android:textSize="13.5sp" />
+
+        <!-- Section 2 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:text="2. Polynomial Coefficients Kaise Likhein?"
+            android:textColor="@color/brand_royal"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:lineSpacingExtra="3dp"
+            android:text="• Coefficients ko x⁰ (constant) se xⁿ ki tartib mein comma (,) ya space se likhein.
+• Misal: '2, 3, 1' ka matlab hai 2 + 3x + 1x².
+• Agar koi power missing ho to us ki jagah 0 likhein (e.g. '1, 0, 0, 4' = 1 + 4x³)."
+            android:textColor="@color/text_primary"
+            android:textSize="13.5sp" />
+
+        <!-- Section 3 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:text="3. Quick Sample Chips"
+            android:textColor="@color/brand_royal"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:lineSpacingExtra="3dp"
+            android:text="• Input box ke neeche neelay chips par tap karne se tayyar misalein aur limits khud fill ho jati hain taake aap foran test kar sakein."
+            android:textColor="@color/text_primary"
+            android:textSize="13.5sp" />
+
+        <!-- Section 4 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:text="4. Definite Limits [a, b] (Optional)"
+            android:textColor="@color/brand_royal"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:lineSpacingExtra="3dp"
+            android:text="• Sirf Indefinite Integral (+ C) chahiye to Lower (a) aur Upper (b) boxes khali chhor dein.
+• Definite value ∫ₐᵇ f(x)dx nikalne ke liye a aur b dono numbers likhein (sin/cos/sec² ke liye angles radians mein dein)."
+            android:textColor="@color/text_primary"
+            android:textSize="13.5sp" />
+
+        <!-- Section 5 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:text="5. Buttons Ka Istemal"
+            android:textColor="@color/brand_royal"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:lineSpacingExtra="3dp"
+            android:text="• ∫ Calculate: Function aur us ka exact integral solve karta hai.
+• Clear: Saare input boxes aur purana result reset karta hai.
+• Copy: Result card ke upar Copy button dabane se poora solution clipboard par copy ho jata hai."
+            android:textColor="@color/text_primary"
+            android:textSize="13.5sp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnCloseHelp"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="20dp"
+            android:text="Samajh Aa Gaya (Close)"
+            android:textAllCaps="false"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:backgroundTint="@color/brand_royal"
+            app:cornerRadius="14dp" />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

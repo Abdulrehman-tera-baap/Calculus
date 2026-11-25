@@ -1,0 +1,18 @@
+MAAN SOFTWARES — COPYRIGHT NOTICE
+=================================
+
+Product: Calculus Studio 3D
+Owner / Publisher: Abdul Rehman
+Brand: Maan Softwares
+Copyright: © 2026 Abdul Rehman. All rights reserved.
+
+This repository is a customized continuation of the IntegrationCalculatorByMaan
+project supplied by the project owner. The project-specific application source,
+branding, layouts, and original additions in this repository are intended for
+publication by Abdul Rehman.
+
+Third-party libraries, Android/Gradle tooling, and their names remain the property
+of their respective owners and are governed by their own licenses. This notice
+does not transfer ownership of those third-party components.
+
+Before publishing, review the licenses of all dependencies and any assets you add.
