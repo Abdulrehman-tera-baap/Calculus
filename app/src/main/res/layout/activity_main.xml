@@ -69,7 +69,7 @@
                     android:minWidth="0dp"
                     android:paddingStart="14dp"
                     android:paddingEnd="14dp"
-                    android:text="? Help Guide"
+                    android:text=" Help Guide"
                     android:textAllCaps="false"
                     android:textColor="#FFFFFF"
                     android:textSize="12sp"
